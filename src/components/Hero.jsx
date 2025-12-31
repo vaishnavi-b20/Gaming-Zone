@@ -107,7 +107,7 @@ const Hero = () => {
                 <div className='mt-24 px-5 sm:px-10'>
                     <h1 className='special-font uppercase font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[10rem] font-sans text-[#f0f2fa]' style={{ fontFamily: "'Zentry', serif" }}>redefi<b>n</b>e</h1>
                     <p className='mb-5 max-w-64 font-robert-regular text-[#f0f2fa]'>Enter the MetaGame Layer <br/>Unleash the Play Economy</p>
-                    <Button id='watch-trailer' title='Watch Trailer' leftIcon={<TiLocationArrow />} containerClass='!bg-[#be983f] flex-center gap-1'/>
+                    <Button id='watch-trailer' title='Watch Trailer' leftIcon={<TiLocationArrow />} containerClass='!bg-[#be983f] flex  items-center justify-center gap-1'/>
                 </div>
             </div>
         </div>
